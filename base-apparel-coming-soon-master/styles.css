@@ -1,22 +1,86 @@
 body {
-    background-image: url('bg-pattern-desktop.svg');
-    background-size: cover; /* Scale the image to cover the entire background */
-    background-position: center; /* Center the background image */
-    font-family: Arial, sans-serif; /* Optional: set font-family */
-    color: #333; /* Optional: set text color */
-  }
+    background-image: url('images/bg-pattern-desktop.svg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
 
-  /* Additional styles for your content */
-  .content {
+.maincontainer {
+    max-width: 1200px;
+    margin:  auto;
     padding: 20px;
-    text-align: center;
-  }
+    padding-left: 150px;
+    text-align: left;
+}
 
-  .attribution {
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative; /* Add relative positioning */
+}
+
+.content {
+    flex: 1; /* Take remaining space */
+}
+
+.logo-container {
+    position: absolute; /* Position the logo absolutely */
+    top: 0; /* Align the logo to the top */
+    left: 0; /* Align the logo to the left */
+}
+
+.right-image {
+    width: auto; /* Adjust width as needed */
+    height: 100%; /* Maintain aspect ratio */
+}
+
+.main-text {
+    font-size: 50px; /* Set font size to large */
+    font-weight: 100; /* Optional: make text bold */
+    color: burlywood;
+    margin-top: 90px;
+}
+
+.text-line {
+    font-size: 50px; /* Set font size to large */
+    font-weight: 100; /* Optional: make text bold */
+    color: black;
+}
+
+.attribution {
     font-size: 11px;
     text-align: center;
-  }
-
-  .attribution a {
     color: hsl(228, 45%, 44%);
-  }
+}
+
+.logo {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.email-input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px; /* Add margin to separate from the input field */
+}

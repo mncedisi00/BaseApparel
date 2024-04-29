@@ -13,20 +13,41 @@
     />
 
     <title>Base Apparel coming soon page</title>
-
+  
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="styles.css">
+    <script src="baseapparels.js" defer></script>
+    
   </head>
   <body>
-    We're coming soon Hello fellow shoppers! We're currently building our new
-    fashion store. Add your email below to stay up-to-date with announcements
-    and our launch deals. Email Address
+    <div class="maincontainer">
+    
+    <div class="container">
+      
+     
+      <div>
+        <img src="images/logo.svg" alt="Base Apparel Logo" class="logo">
+        <div class="main-text">W E ' R E </div>
+        <div class='text-line'>C O M I N G<br>S O O N</div><br><p style='color:burlywood;'>Hello fellow shoppers! We're currently building our new<br>
+    fashion store. Add your email below to stay up-to-date with<br>announcements
+    and our launch deals. Email Address.</p>
+    <form id="Add-form">
+      <input type="email" placeholder="Email Address" class="email-input" id="email" required>
+      <button type="submit" class="submit-btn">Add</button>
+  </form>
+  <div class="error-message" id="error-message" style="display: none;">Please provide a valid email.</div>
+
+      </div>
+      <img src="images/hero-desktop.jpg" alt="Right Image" class="right-image">
+    </div>
+    </div>
+    
   
     <footer>
       <p class="attribution">
         Bootcamp 2024 by
         <a href="https://www.mlab.co.za" target="_blank">CodeTribe</a>.
-        Developed by <a href="#">Mcedisi Mhlanga and link of my portfolio</a>.
+        Developed by <a href="https://mncedisiportfolio.firebaseapp.com/">Mcedisi Mhlanga</a>.
       </p>
     </footer>
   </body>
