@@ -1,0 +1,22 @@
+body {
+    background-image: url('bg-pattern-desktop.svg');
+    background-size: cover; /* Scale the image to cover the entire background */
+    background-position: center; /* Center the background image */
+    font-family: Arial, sans-serif; /* Optional: set font-family */
+    color: #333; /* Optional: set text color */
+  }
+
+  /* Additional styles for your content */
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
